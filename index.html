@@ -4,16 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iwa portfolio</title>
+  <title>Iwamoto Hayate portfolio</title>
   <!-- リセットCSS -->
   <link rel="stylesheet" href="./styles/vendors/destyle.css">
   <!-- Bootstrap gridのみ -->
   <link rel="stylesheet" href="./styles/vendors/bootstrap-grid.min.css">
-  <!-- aso.cssのみ -->
-  <link rel="stylesheet" href="./styles/libs/aos.css">
-  <!-- Bootstrap gridのみ -->
-  <link rel="stylesheet" href="./styles/vendors/bootstrap-grid.min.css">
-
   <link rel="stylesheet" href="./styles/style.css">
   <!-- AdobeFont読み込み -->
   <link rel="stylesheet" href="https://use.typekit.net/jur3ffv.css">
@@ -26,9 +21,11 @@
     </div>
     <header class="header">
       <div class="header-inner">
-        <div class="header-logo medium">
-          <h1><a href="index.html">Iwamoto Hayate</a></h1>
-        </div>
+          <h1 class="header-logo">
+            <a href="index.html">
+              <img src="./images/logo_header.svg" alt="ロゴ">
+            </a>
+          </h1>
         <nav class="header-nav">
           <ul class="header-menu">
             <li class="header-menu__item bold"><a href="index.html">Home</a>
@@ -36,11 +33,6 @@
             <li class="header-menu__item bold"><a href="about.html">About</a>
             </li>
             <li class="header-menu__item bold"><a href="works.html">Works</a></li>
-            <li class="header-menu__item">
-              <a href="https://twitter.com/iwa_1938" target="_blank">
-                <img class="twitter-icon" src="./images/twitter.svg" alt="twitterアイコン">
-              </a>
-            </li>
           </ul>
         </nav>
         <div class="mobile-menu__bg"></div>
@@ -63,15 +55,6 @@
           <li class="mobile-menu__item bold">
             <a class="mobile-menu__link" href="works.html">Works</a>
           </li>
-          <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="https://twitter.com/iwa_1938" target="_blank">
-              <div class="twitter-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
-                  <path id="FontAwsome_twitter_" data-name="FontAwsome (twitter)" d="M17.047,52.07c.012.175.012.35.012.525,0,5.337-3.918,11.488-11.079,11.488A10.722,10.722,0,0,1,0,62.27a7.772,7.772,0,0,0,.94.05,7.624,7.624,0,0,0,4.834-1.725,3.921,3.921,0,0,1-3.641-2.8,4.74,4.74,0,0,0,.735.062,3.981,3.981,0,0,0,1.025-.137A4,4,0,0,1,.772,53.757v-.05a3.817,3.817,0,0,0,1.76.512A4.075,4.075,0,0,1,.8,50.857a4.12,4.12,0,0,1,.53-2.037,10.944,10.944,0,0,0,8.029,4.225,4.719,4.719,0,0,1-.1-.925,3.966,3.966,0,0,1,3.894-4.038A3.822,3.822,0,0,1,16,49.357a7.5,7.5,0,0,0,2.471-.975,4,4,0,0,1-1.712,2.225A7.589,7.589,0,0,0,19,49.982,8.546,8.546,0,0,1,17.047,52.07Z" transform="translate(0 -48.082)"/>
-                </svg>
-              </div>
-            </a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -81,8 +64,8 @@
           <div class="wrapper">
             <div class="catch">
               <p class="bold fade-item">
-                <span>”おもい”をつたえ、</span></p>
-                <p class="bold fade-item"><span>みんなを”笑顔”にできる</span></p>
+                <span>わたしは</span></p>
+                <p class="bold fade-item"><span>世の中に貢献できる</span></p>
                 <p class="bold fade-item"><span>デザイナーをめざしています</span></p>
             </div>
           </div>
@@ -93,7 +76,7 @@
           <div class="flex-container">
             <div class="flex-left fade-item">
               <div class="main-title">
-                <h2 class="main-title-en bold ">About</h2>
+                <h2 class="main-title-en bold "><span class="text-blue">A</span>bout</h2>
                 <p class="main-title-ja bold ">私について</p>
               </div>
               <div class="about-img-sp fade-item">
@@ -103,16 +86,17 @@
               </div>
               <div class="about-text ">
                 <p>
-                  高校の部活動では応援団長を務めていました。元公務員です。最近はできないことには何か理由があると考えています。<br>
-                  「為せば成る、為さねば成らぬ何事も」<br>
-                  思いをつたえるデザイナーになることを目標に、地道に努力を重ねていきたいと考えています。
+                  webサイトを開いた時の感動や面白さに惹かれ、webデザインに興味を持つようになりました。<br>
+                  「わかりやすさ」を心がけて、デザインとコーディングをしています。<br>
+                  将来はデザインを通して社会に貢献できる人間になりたいと考えています。
                 </p>
               </div>
-              <div class="">
-                <button class="btn bold" onclick="location.href='about.html'">詳しく知る<span class="btn-arrow"></span>
-                </button>
+              <!-- <div> -->
+                <!-- <button class="btn bold" onclick="location.href='about.html'">詳しく知る<span class="btn-arrow"></span>
+                </button> -->
+                <!-- </div> -->
+                <button class="btn bold" onclick="location.href='./about.html'">一覧に戻る<span class="btn-arrow"></span></button>
               </div>
-            </div>
             <div class="flex-right fade-item">
                 <div class="about-profile-img">
                   <img src="./images/about_profile.jpg" alt="プロフィール画像">
@@ -123,14 +107,14 @@
       </section>
       <section class="works" id="sec-02">
         <div class="main-title">
-          <h2 class="main-title-en bold">Works</h2>
-          <p class="main-title-ja bold">作品</p>
+          <h2 class="main-title-en bold"><span class="text-blue">W</span>orks</h2>
+          <p class="main-title-ja bold">私の作品</p>
         </div>
         <div class="works-container">
           <!-- 以下bootstrap grid -->
-          <h3 class="works-title bold">
-              <span class="title-bar">Web</span>
-          </h3>
+          <div class="wrapper">
+            <h3 class="works-title bold title-bar">Web</h3>
+          </div>
           <div class="card-container fadeIn up">
             <div class="row">
               <div class="card col-12 col-sm-6 col-md-4 fade-item">
@@ -193,9 +177,9 @@
         </div>
         <div class="works-container">
           <!-- 以下bootstrap grid -->
-          <h3 class="works-title bold">
-              <span class="title-bar fade-item">Banner</span>
-          </h3>
+          <div class="wrapper">
+            <h3 class="works-title bold title-bar">Banner</h3>
+          </div>
           <div class="card-container fadeIn up">
             <div class="row">
               <div class="card col-12 col-sm-6 col-md-4 fade-item">
@@ -216,7 +200,6 @@
                   </div>
                 </a>
               </div>
-              
               <div class="card col-12 col-sm-6 col-md-4 fade-item">
                 <a href="./works/work_banner02.html">
                   <div class="darken">
@@ -238,13 +221,79 @@
             </div>
           </div>
         </div>
+        <div class="works-container">
+          <!-- 以下bootstrap grid -->
+          <div class="wrapper">
+            <h3 class="works-title bold title-bar">Others</h3>
+          </div>
+          <div class="card-container fadeIn up">
+            <div class="row">
+              <div class="card col-12 col-sm-6 col-md-4 fade-item">
+                <a href="./works/work_other01.html">
+                  <div class="darken">
+                    <div class="card-img darken-img">
+                      <img src="./images/works_others01.jpg" alt="ロゴ作成">
+                    </div>
+                    <div class="darken-text">
+                      <p>詳細を見る</p>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <div class="work-name medium">ロゴ作成</div>
+                    <div class="category-container">
+                      <div class="category-bar">デザイン</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="card col-12 col-sm-6 col-md-4 fade-item">
+                <a href="./works/work_other02.html">
+                  <div class="darken">
+                    <div class="card-img darken-img">
+                      <img src="./images/works_others02.jpg" alt="名刺作成">
+                    </div>
+                    <div class="darken-text">
+                      <p>詳細を見る</p>
+                    </div>
+                  </div>
+                  <div class="card-text">
+                    <div class="work-name medium">名刺作成</div>
+                    <div class="category-container">
+                      <div class="category-bar">デザイン</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="wrapper">
-        <p class="copyright">&copy; 2021 Iwamoto Hayate Inc.</p>
+      <div class="footer-inner">
+        <h1 class="footer-logo">
+          <a href="index.html">
+            <img src="./images/logo_footer.svg" alt="フッターロゴ">
+          </a>
+        </h1>
+        <nav class="footer-nav">
+          <ul class="footer-menu">
+            <li class="footer-menu__item bold"><a href="index.html">Home</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="about.html">About</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="works.html">Works</a></li>
+          </ul>
+        </nav>
       </div>
+      <p class="copyright">&copy; 2021 Iwamoto Hayate Inc.</p>
     </footer>
+    <div class="pageTopTrigger">
+      <div id="page-top">
+        <a href="#">
+        </a>
+      </div>
+    </div>
   </div>
   <script src="./scripts/vendors/scroll-polyfill.js"></script>
   <script src="./scripts/libs/scroll.js"></script>
