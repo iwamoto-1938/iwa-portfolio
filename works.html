@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iwa portfolio - About</title>
+  <title>iwa portfolio</title>
   <!-- リセットCSS -->
-  <link rel="stylesheet" href="./styles/vendors/destyle.css">
+  <link rel="stylesheet" href="../styles/vendors/destyle.css">
   <!-- Bootstrap gridのみ -->
-  <link rel="stylesheet" href="./styles/vendors/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="../styles/vendors/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="../styles/style.css">
   <!-- AdobeFont読み込み -->
   <link rel="stylesheet" href="https://use.typekit.net/jur3ffv.css">
 </head>
@@ -18,25 +18,20 @@
     <div class="loading">
       <div class="spinner"><span class="spinner-text bold">Loading...</span></div>
     </div>
-    <div class="nav-trigger"></div>
     <header class="header">
       <div class="header-inner">
-        <div class="header-logo medium">
-          <h1><a href="index.html">Iwamoto Hayate</a></h1>
-        </div>
-        
+          <h1 class="header-logo">
+            <a href="../index.html">
+              <img src="../images/logo_header.svg" alt="ロゴ">
+            </a>
+          </h1>
         <nav class="header-nav">
           <ul class="header-menu">
-            <li class="header-menu__item bold"><a href="index.html">Home</a>
+            <li class="header-menu__item bold"><a href="../index.html">Home</a>
             </li>
-            <li class="header-menu__item bold"><a href="about.html">About</a>
+            <li class="header-menu__item bold"><a href="../about.html">About</a>
             </li>
-            <li class="header-menu__item bold"><a href="works.html">Works</a></li>
-            <li class="header-menu__item">
-              <a href="https://twitter.com/iwa_1938" target="_blank">
-                <img class="twitter-icon" src="./images/twitter.svg" alt="twitterアイコン">
-              </a>
-            </li>
+            <li class="header-menu__item bold"><a href="../works.html">Works</a></li>
           </ul>
         </nav>
         <div class="mobile-menu__bg"></div>
@@ -51,154 +46,153 @@
       <nav class="mobile-menu">
         <ul class="mobile-menu__main">
           <li class="mobile-menu__item bold">
-            <a class="mobile-menu__link" href="index.html">Home</a>
+            <a class="mobile-menu__link" href="../index.html">Home</a>
           </li>
           <li class="mobile-menu__item bold">
-            <a class="mobile-menu__link" href="about.html">About</a>
+            <a class="mobile-menu__link" href="../about.html">About</a>
           </li>
           <li class="mobile-menu__item bold">
-            <a class="mobile-menu__link" href="index.html">Works</a>
-          </li>
-          <li class="mobile-menu__item">
-            <a class="mobile-menu__link" href="https://twitter.com/iwa_1938" target="_blank">
-              <div class="twitter-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16">
-                  <path id="FontAwsome_twitter_" data-name="FontAwsome (twitter)" d="M17.047,52.07c.012.175.012.35.012.525,0,5.337-3.918,11.488-11.079,11.488A10.722,10.722,0,0,1,0,62.27a7.772,7.772,0,0,0,.94.05,7.624,7.624,0,0,0,4.834-1.725,3.921,3.921,0,0,1-3.641-2.8,4.74,4.74,0,0,0,.735.062,3.981,3.981,0,0,0,1.025-.137A4,4,0,0,1,.772,53.757v-.05a3.817,3.817,0,0,0,1.76.512A4.075,4.075,0,0,1,.8,50.857a4.12,4.12,0,0,1,.53-2.037,10.944,10.944,0,0,0,8.029,4.225,4.719,4.719,0,0,1-.1-.925,3.966,3.966,0,0,1,3.894-4.038A3.822,3.822,0,0,1,16,49.357a7.5,7.5,0,0,0,2.471-.975,4,4,0,0,1-1.712,2.225A7.589,7.589,0,0,0,19,49.982,8.546,8.546,0,0,1,17.047,52.07Z" transform="translate(0 -48.082)"/>
-                </svg>
-              </div>
-            </a>
+            <a class="mobile-menu__link" href="../works.html">Works</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="inner">
-      <section class="works-page">
-        <div class="main-title">
-          <h2 class="main-title-en bold">Works</h2>
-          <p class="main-title-ja bold">作品</p>
-        </div>
-        <div class="works-container">
-          <!-- 以下bootstrap grid -->
-          <h3 class="works-title bold">
-              <span class="title-bar">Web</span>
-          </h3>
-          <div class="card-container fadeIn up">
-            <div class="row">
-              <div class="card col-12 col-sm-6 col-md-4 fade-item">
-                <a href="./works/work_web01.html">
-                  <div class="darken">
-                    <div class="card-img darken-img">
-                      <img src="./images/works_web01.jpg" alt="ふたば農園架空サイト">
-                    </div>
-                    <div class="darken-text">
-                      <p>詳細を見る</p>
-                    </div>
-                  </div>
-                  <div class="card-text">
-                    <div class="work-name medium">ふたば農園ブランドサイト(架空)</div>
-                    <div class="category-container">
-                      <div class="category-bar">デザイン</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="card col-12 col-sm-6 col-md-4 fade-item">
-                <a href="./works/work_web02.html">
-                  <div class="darken">
-                    <div class="card-img darken-img">
-                      <img src="./images/works_web02.jpg" alt="鳥羽製茶架空サイト">
-                    </div>
-                    <div class="darken-text">
-                      <p>詳細を見る</p>
-                    </div>
-                  </div>
-                  <div class="card-text">
-                    <div class="work-name medium">鳥羽製茶サイト(架空)</div>
-                    <div class="category-container">
-                      <div class="category-bar">デザイン</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <div class="card col-12 col-sm-6 col-md-4 fade-item">
-                <a href="./works/work_web03.html">
-                  <div class="darken">
-                    <div class="card-img darken-img">
-                      <img src="./images/works_web03.jpg" alt="ふたば農園架空サイト">
-                    </div>
-                    <div class="darken-text">
-                      <p>詳細を見る</p>
-                    </div>
-                  </div>
-                  <div class="card-text">
-                    <div class="work-name medium">ポートフォリオサイト</div>
-                    <div class="category-container">
-                      <div class="category-bar">デザイン</div>
-                      <div class="category-bar">コーディング</div>
-                    </div>
-                  </div>
-                </a>
-              </div>
+      <section class="works-page pd-none">
+        <div class="wrapper">
+          <div class="work-details-container">
+            <div class="work-details-img">
+              <img src="../images/works_web01_top.jpg" alt="">
             </div>
+            <table class="work-details-table">
+              <tr>
+                <th>作品名</th>
+                <td>ふたば農園ブランドサイト(架空)、ECサイト(架空)作成</td>
+              </tr>
+              <tr>
+                <th>制作期間</th>
+                <td>30時間（12日作業）</td>
+              </tr>
+              <tr>
+                <th>担当作業</th>
+                <td>企画、デザイン(トップ、ネットショップ一覧ページ、購入ページの計3ページ)</td>
+              </tr>
+              <tr>
+                <th>制作の目的</th>
+                <td>
+                  <ul>
+                    <li>ブランド化したキャベツの売り出し。</li>
+                    <li>ふたばキャベツを認知化させ、売り上げを伸ばすこと。</li>
+                    <li>オンラインストアを併設し、販売数の増加を狙う。</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <th>コンセプト</th>
+                <td>
+                    30代から50代くらいの女性を中心にブランド野菜を探している方、興味のある方に向けて、キャベツの美味しさや特徴を発信し、ECサイトへ誘導、購入してもらうサイトをデザインする。
+                </td>
+              </tr>
+
+              <tr>
+                <th>ターゲット</th>
+                <td>経済的に余裕のある方。野菜選びにこだわりがある方。30代後半から50代の女性が中心とする。</td>
+              </tr>
+              <tr>
+                <th>作品説明</th>
+                <td>ファーストビューはキャベツを印象づけるために作成しました。また、オンラインショップに繋がるよう、リンクを配置し少しでもクリックしやすいよう大きめに配置しました。<br>
+                はじめに消費者が知りたいことについて考えました。<br>「どのようなキャベツであるか」「実際のものと価格は」「生産者はどんな人か」「安心なのか」<br>
+                知りたいと思うことを整理し、キャベルの特徴、商品について、農園についてという流れにしました。<br>
+                生産者の顔が見えるほうが消費者側は安心感を得られやすいと考えたため顔の見える写真も使用しました。<br>
+                特徴のセクションは数字を大きくみせ、目が止まりやすいように工夫し、あしらいを加えて遊びこごころをプラスしました。写真はキャベツの形で切り抜き、キャベツのイメージをより深められ流ようにしました<br>
+                色は女性中心であることと、キャベツの色をイメージして明るめ黄緑を背景に使用しました。それに合わせて一部分に健康的で彩度の高い緑色を使用しました。また、高級感を意識してキャッチコピーや本文などには純粋な黒色を使用しました。<br>
+                フォントはターゲットが女性中心であることや、ブランド野菜への親近感を持って欲しいことから丸ゴシックを使用しました。
+                </td>
+              </tr>
+              <tr>
+                <th>使用ツール</th>
+                <td>Photoshop,Illustrator,XD</td>
+              </tr>
+              <tr>
+                <th>作品データ</th>
+                <td><a href="https://xd.adobe.com/view/aa9f0d19-757c-421e-885b-952d928991dc-ffcc/" target="_blank">XDデータ</a></td>
+              </tr>
+            </table>
+            <button class="btn bold" onclick="location.href='../works.html'">一覧に戻る<span class="btn-arrow"></span></button>
           </div>
         </div>
-        <div class="works-container">
-          <!-- 以下bootstrap grid -->
-          <h3 class="works-title bold">
-              <span class="title-bar fade-item">Banner</span>
-          </h3>
-          <div class="card-container fadeIn up">
-            <div class="row">
-              <div class="card col-12 col-sm-6 col-md-4 fade-item">
-                <a href="./works/work_banner01.html">
-                  <div class="darken">
-                    <div class="card-img darken-img">
-                      <img src="./images/works_banner01_1.jpg" alt="カフェ特集バナー">
-                    </div>
-                    <div class="darken-text">
-                      <p>詳細を見る</p>
-                    </div>
-                  </div>
-                  <div class="card-text">
-                    <div class="work-name medium">カフェ特集バナー(架空)</div>
-                    <div class="category-container">
-                      <div class="category-bar">デザイン</div>
-                    </div>
-                  </div>
-                </a>
+        <div class="design-comp">
+          <div class="wrapper">
+
+            <div class="flex-container">
+              <div class="flex-right">
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">トップページ（PC）</p>
+                  <img src="../images/works_web01_comp01_pc.jpg" alt="トップページ（PC）">
+                </div>
               </div>
-              
-              <div class="card col-12 col-sm-6 col-md-4 fade-item">
-                <a href="./works/work_banner02.html">
-                  <div class="darken">
-                    <div class="card-img darken-img">
-                      <img src="./images/works_banner02.jpg" alt="家具セールのバナー">
-                    </div>
-                    <div class="darken-text">
-                      <p>詳細を見る</p>
-                    </div>
-                  </div>
-                  <div class="card-text">
-                    <div class="work-name medium">家具のセールバナー（架空）</div>
-                    <div class="category-container">
-                      <div class="category-bar">デザイン</div>
-                    </div>
-                  </div>
-                </a>
+              <div class="flex-left">
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">ショップトップ（PC）</p>
+                  <img src="../images/works_web01_comp02_pc.jpg" alt="ショップトップ（PC）">
+                </div>
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">ショップ購入画面（PC）</p>
+                  <img src="../images/works_web01_comp03_pc.jpg" alt="ショップ購入画面（PC）">
+                </div>
               </div>
             </div>
+            <div class="flex-container">
+              <div class="flex-right">
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">トップページ（SP）</p>
+                  <img src="../images/works_web01_comp04_sp.jpg" alt="トップページ（SP）">
+                </div>
+              </div>
+              <div class="flex-left">
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">ショップトップ（SP）</p>
+                  <img src="../images/works_web01_comp05_sp.jpg" alt="ショップトップ（SP）">
+                </div>
+                <div class="design-comp-img">
+                  <p class="design-comp-text bold">ショップ購入画面（SP）</p>
+                  <img src="../images/works_web01_comp06_sp.jpg" alt="ショップ購入画面（SP）">
+                </div>
+              </div>
+            </div>
+            <button class="btn bold" onclick="location.href='../works.html'">一覧に戻る<span class="btn-arrow"></span>
           </div>
         </div>
       </section>
     </main>
-  </div>
-  <footer class="footer">
-    <div class="wrapper">
+    <footer class="footer">
+      <div class="footer-inner">
+        <h1 class="footer-logo">
+          <a href="../index.html">
+            <img src="../images/logo_footer.svg" alt="フッターロゴ">
+          </a>
+        </h1>
+        <nav class="footer-nav">
+          <ul class="footer-menu">
+            <li class="footer-menu__item bold"><a href="../index.html">Home</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="../about.html">About</a>
+            </li>
+            <li class="footer-menu__item bold"><a href="../works.html">Works</a></li>
+          </ul>
+        </nav>
+      </div>
       <p class="copyright">&copy; 2021 Iwamoto Hayate Inc.</p>
+    </footer>
+    <div class="pageTopTrigger">
+      <div id="page-top">
+        <a href="#">
+        </a>
+      </div>
     </div>
-  </footer>
-  <script src="./scripts/vendors/scroll-polyfill.js"></script>
-  <script src="./scripts/libs/scroll.js"></script>
-  <script src="./scripts/main.js"></script>
+  </div>
+  <script src="../scripts/vendors/scroll-polyfill.js"></script>
+  <script src="../scripts/libs/scroll.js"></script>
+  <script src="../scripts/main.js"></script>
 </body>
 </html>
